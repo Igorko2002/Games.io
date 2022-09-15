@@ -1,0 +1,147 @@
+body {
+    background: url(img/Igruha.ua.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+    color: chartreuse;
+    position: absolute;
+    top: 0%;
+    left:2%;
+    text-shadow: 0 0 20px #fff;
+}
+
+a.item_social img {
+    position: absolute;
+    top: 92%;
+    right: 1.50%;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+
+a.item_social1 img {
+    position: absolute;
+    top: 92%;
+    right: 5%;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+
+a.item_social2 img {
+    position: absolute;
+    top: 92%;
+    right: 8.50%;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+
+.gallery {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    right: -40%;
+    transform-style: preserve-3d;
+    animation:rotate 50s linear infinite;
+}
+
+@keyframes rotate {
+    from { 
+        transform:perspective(1200px)
+        rotateY(0deg);
+}
+
+to {
+    transform:perspective(1200px)
+    rotateY(360deg);
+ }
+}
+
+.gallery span {
+    position:absolute;
+    width: 100%;
+    height: 80%;
+    transform:rotateY(calc(var(--i) * 45deg))translateZ(380px);
+}
+
+.gallery span img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit:cover;
+}
+
+.gallery1 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    right: -40%;
+    transform-style: preserve-3d;
+    animation:rotate 50s linear infinite;
+}
+
+@keyframes rotate {
+    from { 
+        transform:perspective(1200px)
+        rotateY(0deg);
+}
+
+to {
+    transform:perspective(1200px)
+    rotateY(360deg);
+ }
+}
+
+.gallery1 span {
+    position:absolute;
+    width: 100%;
+    height: 80%;
+    transform:rotateY(calc(var(--i) * 45deg))translateZ(380px);
+}
+
+.gallery1 span img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit:cover;
+}
+
+.gallery2 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    right: -40%;
+    transform-style: preserve-3d;
+    animation:rotate 50s linear infinite;
+}
+
+@keyframes rotate {
+    from { 
+        transform:perspective(1200px)
+        rotateY(0deg);
+}
+
+to {
+    transform:perspective(1200px)
+    rotateY(360deg);
+ }
+}
+
+.gallery2 span {
+    position:absolute;
+    width: 100%;
+    height: 80%;
+    transform:rotateY(calc(var(--i) * 45deg))translateZ(380px);
+}
+
+.gallery2 span img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit:cover;
+}
+
+
